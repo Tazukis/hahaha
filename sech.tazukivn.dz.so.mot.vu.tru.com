@@ -1948,7 +1948,7 @@ local Library = win:Server("SNOW HUB","")
 local Main = Library:Channel("Main","rbxassetid://11446825283")
 local Setting = Library:Channel("Settings","rbxassetid://11446835336")
 local Weapon = Library:Channel("Weapons","rbxassetid://11446859498")
-local Race = Library:Tab("Race V4","rbxassetid://11446900930")
+local Race = Library:Tab("RaceV4","rbxassetid://11446900930")
 local Stats = Library:Channel("Stats","rbxassetid://11447069304")
 local P = Library:Channel("Player","rbxassetid://11446900930")
 local polo = Library:Channel("Teleport","rbxassetid://11446920523")
@@ -9171,7 +9171,7 @@ spawn(function()
 end)
 
 if World3 then
-Race:Seperator("Race V4")
+RaceV4:Label("\\\\\  Race v4  //")
     
     Race:Button("Teleport To Timple Of Time",function()
   Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875, 14895.3017578125, 102.62469482421875)
